@@ -12,12 +12,12 @@ module.exports = {
   dev: {
     env: require('./dev.env'),
     removeElectronJunk: true,
-    chineseLog: false,
+    chineseLog: true,
     port: 9080,
   },
   DllFolder: '',
   HotUpdateFolder: 'update',
   UseStartupChart: true,
-  IsUseSysTitle: false,
+  IsUseSysTitle: true,
   BuiltInServerPort: 25565
 }

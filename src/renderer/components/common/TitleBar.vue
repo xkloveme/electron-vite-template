@@ -3,7 +3,7 @@
     <!-- 软件logo预留位置 -->
     <div style="-webkit-app-region: drag" class="logo">
       <img
-        src="@renderer/assets/icons/svg/electron-logo.svg"
+        src="@/assets/icons/svg/electron-logo.svg"
         class="icon-logo"
       />
     </div>
@@ -13,22 +13,22 @@
     <div style="-webkit-app-region: drag" class="title"></div>
     <div class="controls-container">
       <div class="windows-icon-bg" @click="Mini">
-        <img src="@renderer/assets/icons/svg/mini.svg" class="icon-size" />
+        <img src="@/assets/icons/svg/mini.svg" class="icon-size" />
       </div>
       <div class="windows-icon-bg" @click="MixOrReduction">
         <img
           v-if="mix"
-          src="@renderer/assets/icons/svg/reduction.svg"
+          src="@/assets/icons/svg/reduction.svg"
           class="icon-size"
         />
         <img
           v-else
-          src="@renderer/assets/icons/svg/mix.svg"
+          src="@/assets/icons/svg/mix.svg"
           class="icon-size"
         />
       </div>
       <div class="windows-icon-bg close-icon" @click="Close">
-        <img src="@renderer/assets/icons/svg/close.svg" class="icon-size" />
+        <img src="@/assets/icons/svg/close.svg" class="icon-size" />
       </div>
     </div>
   </div>

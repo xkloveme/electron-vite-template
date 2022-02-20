@@ -93,11 +93,11 @@
 <script setup lang="ts">
 import SystemInformation from "./LandingPage/SystemInformation.vue";
 import UpdateProgress from "./updataProgress/index.vue";
-import { message } from "@renderer/api/login";
-import logo from "@renderer/assets/logo.png";
+import { message } from "@/api/login";
+import logo from "@/assets/logo.png";
 import { ElMessage, ElMessageBox } from "element-plus";
 import { onUnmounted, Ref, ref } from "vue";
-import { i18n, setLanguage } from "@renderer/i18n";
+import { i18n, setLanguage } from "@/i18n";
 
 import useStoreTemplate from '@store/template'
 import TitleBar from "./common/TitleBar.vue";

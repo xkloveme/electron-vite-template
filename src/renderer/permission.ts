@@ -1,5 +1,5 @@
 import router from './router'
-import Performance from '@renderer/utils/performance'
+import Performance from '@/utils/performance'
 
 var end = null
 router.beforeEach((to, from, next) => {

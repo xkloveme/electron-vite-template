@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node .electron-vite/dev-runner.js",
+    "pre": "vite ./src/renderer --config .electron-vite/vite.config.js --host",
     "build": "cross-env BUILD_TARGET=clean node .electron-vite/build.js  && electron-builder -c build.json",
     "build:win32": "cross-env BUILD_TARGET=clean node .electron-vite/build.js  && electron-builder -c build.json --win  --ia32",
     "build:win64": "cross-env BUILD_TARGET=clean node .electron-vite/build.js  && electron-builder -c build.json --win  --x64",

@@ -20,7 +20,7 @@
             "@config/*": [
                 "config/*"
             ],
-            "@renderer/*": [
+            "@/*": [
                 "src/renderer/*"
             ],
             "@main/*": [

@@ -21,7 +21,7 @@ const config = defineConfig({
     },
     resolve: {
         alias: {
-            '@renderer': root,
+            '@': root,
             '@store': join(root, '/store/modules'),
         }
     },

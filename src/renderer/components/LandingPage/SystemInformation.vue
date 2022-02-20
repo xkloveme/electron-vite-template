@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { i18nt } from "@renderer/i18n";
+import { i18nt } from "@/i18n";
 import { computed, ref } from "vue";
 import { useRoute } from "vue-router";
 
